@@ -1,0 +1,4 @@
+name: ForceServerList
+version: '1.0-SNAPSHOT'
+main: com.boggy.forceServerList.ForceServerList
+api-version: '1.20'
