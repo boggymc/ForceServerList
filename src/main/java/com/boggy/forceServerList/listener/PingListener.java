@@ -17,7 +17,6 @@ public class PingListener implements Listener {
 
     @EventHandler
     public void onServerListPing(ServerListPingEvent e) {
-        System.out.println("added address: " + e.getAddress().getHostAddress());
         plugin.getPlayerManager().addAddress(e.getAddress().getHostAddress());
     }
 
